@@ -1,0 +1,53 @@
+
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+
+p{
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.cross{
+    position: relative;
+}
+
+.cross i{
+        position: absolute;
+        top: 25%;
+        right: 10%;
+        color: red;
+        cursor: pointer;
+        transform: scale(1);
+        transition: all .3s ease-in-out;
+  }
+
+  .cross i:hover{
+    transform: scale(1.5);
+  }
+
+  #toItemSearch{
+    background-color: transparent;
+    border: 0px;
+    border-radius: unset;
+    border-bottom: 2px solid rgb(209, 206, 206);
+    outline: none;
+    box-shadow: none;
+  }
+
+  .btn-light{
+    background-color: transparent;
+    border: 1px solid rgb(209, 206, 206);
+  }
+
+  .uptdIcon{
+    position: relative;
+  }
+  .uptdIcon i {
+    position: absolute;
+    top: 12px;
+    left: 6px;
+    font-size: 14px;
+    color: #eee5e5;
+}

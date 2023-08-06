@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.20/sweetalert2.min.css" integrity="sha512-yX1R8uWi11xPfY7HDg7rkLL/9F1jq8Hyiz8qF4DV2nedX4IVl7ruR2+h3TFceHIcT5Oq7ooKi09UZbI39B7ylw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="text-left text-capitalize">shopping list</h1>
+                <form id="formLogin">
+                    <div class="form-group">
+                        <input type="text" required class="form-control" id="toAddItem" placeholder="Enter Item">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-dark text-capitalize" id="addBtn">+ add item</button>
+                        <div class="uptdIcon d-none" id="uptdIcon">
+                            <i class="fa-solid fa-pen"></i>
+                            <button type="button" class="btn btn-success text-capitalize px-4"
+                                id="updateBtn">Update</button>
+                        </div>
+                    </div>
+
+                </form>
+                <div>
+                    <input type="text" class="form-control" id="toItemSearch"
+                        placeholder="Filter items">
+                </div>
+                <div class="row mt-4" id="todoList">
+
+                </div>
+                <div class="clearButton">
+                    <!-- <p class="alert alert-success" id="para">There is no content</p> -->
+                    <button type="button" class="btn btn-light btn-lg btn-block mt-4" id="clearAll">Clear
+                        All</button>
+                </div>
+            </div>
+        </div>
+        .
+    </div>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.20/sweetalert2.all.min.js"
+        integrity="sha512-g6SyD3meGVFsbHBlMq7eDdEXPvtH9/yPKS9HNZKN1sB6nDVSzVwcmArToKFPb0EIlT16Q45/urC6DjJf1q8rIw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
